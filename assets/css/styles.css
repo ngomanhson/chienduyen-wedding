@@ -1626,7 +1626,7 @@ body {
     object-fit: cover;
     filter: sepia(0.3) saturate(1.4);
 }
-.countdown-row {
+/* .countdown-row {
     display: flex;
     justify-content: center;
     gap: 10px;
@@ -1634,6 +1634,22 @@ body {
     margin-top: 40px;
     position: relative;
     z-index: 1;
+} */
+
+.countdown-row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 40px auto 0;
+    position: relative;
+    z-index: 1;
+    max-width: 780px;
+
+    @media (max-width: 700px) {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 .cd-block {
     --size: 120px;
@@ -1996,7 +2012,7 @@ textarea.wish-input {
     display: grid;
     grid-template-columns: 1fr 1.4fr 1fr;
     gap: 6px;
-    max-width: 700px;
+    max-width: 780px;
     margin: 0 auto 30px;
     height: 160px;
 }
@@ -2085,7 +2101,7 @@ textarea.wish-input {
 
 .map-box {
     width: 100%;
-    max-width: 700px;
+    max-width: 780px;
     height: 280px;
     margin: 0 auto;
     background: linear-gradient(135deg, #c8e6e2, #a8d8d2);
