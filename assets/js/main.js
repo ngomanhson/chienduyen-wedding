@@ -95,7 +95,7 @@ let musicOn = false;
 const bgm = new Audio();
 bgm.loop = true;
 bgm.volume = 0.42;
-bgm.src = "../assets/audio/beautiful-in-white.mp3";
+bgm.src = "./assets/audio/beautiful-in-white.mp3";
 function toggleMusic() {
     const btn = document.getElementById("music-btn"),
         ico = document.getElementById("music-icon");
