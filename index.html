@@ -1,0 +1,1006 @@
+<!doctype html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Wedding Invitation | Quốc Chiến & Thị Duyên</title>
+        <link rel="stylesheet" href="./assets/css/styles.css" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Montserrat:wght@300;400;500&display=swap"
+            rel="stylesheet"
+        />
+
+        <link
+            rel="icon"
+            type="image/png"
+            href="/assets/images/favicon/favicon-96x96.png"
+            sizes="96x96"
+        />
+        <link rel="icon" type="image/svg+xml" href="/assets/images/favicon/favicon.svg" />
+        <link rel="shortcut icon" href="/assets/images/favicon/favicon.ico" />
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="/assets/images/favicon/apple-touch-icon.png"
+        />
+        <link rel="manifest" href="/assets/images/favicon/site.webmanifest" />
+
+        <!-- Basic SEO -->
+        <meta
+            name="description"
+            content="Trân trọng kính mời đến tham dự lễ thành hôn của Quốc Chiến và Thị Duyên, được tổ chức vào ngày 28 tháng 03 năm 2026. Sự hiện diện của bạn là niềm vinh hạnh và niềm vui lớn đối với gia đình chúng tôi."
+        />
+        <meta
+            name="keywords"
+            content="thiệp cưới, wedding invitation, Quốc Chiến Thị Duyên, thiệp cưới online, wedding website"
+        />
+        <meta name="author" content="Quốc Chiến & Thị Duyên Wedding" />
+        <meta name="robots" content="index, follow" />
+        <meta name="theme-color" content="#0a221c" />
+        <link rel="canonical" href="https://chienduyen-wedding.vercel.app/" />
+
+        <!-- Open Graph -->
+        <meta property="og:title" content="Wedding Invitation | Quốc Chiến & Thị Duyên" />
+        <meta
+            property="og:description"
+            content="Trân trọng kính mời đến tham dự lễ thành hôn của Quốc Chiến và Thị Duyên, được tổ chức vào ngày 28 tháng 03 năm 2026. Sự hiện diện của bạn là niềm vinh hạnh và niềm vui lớn đối với gia đình chúng tôi."
+        />
+        <meta
+            property="og:image"
+            content="https://chienduyen-wedding.vercel.app/assets/images/01-large.png"
+        />
+        <meta property="og:url" content="https://chienduyen-wedding.vercel.app/" />
+        <meta property="og:image:type" content="image/png" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:image:alt" content="Thiệp cưới Quốc Chiến và Thị Duyên" />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Chiến & Duyên Wedding" />
+        <meta property="og:locale" content="vi_VN" />
+
+        <!-- Twitter Card -->
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Wedding Invitation | Quốc Chiến & Thị Duyên" />
+        <meta
+            name="twitter:description"
+            content="Trân trọng kính mời đến tham dự lễ thành hôn của Quốc Chiến và Thị Duyên, được tổ chức vào ngày 28 tháng 03 năm 2026. Sự hiện diện của bạn là niềm vinh hạnh và niềm vui lớn đối với gia đình chúng tôi."
+        />
+        <meta
+            name="twitter:image"
+            content="https://chienduyen-wedding.vercel.app/assets/images/01-large.png"
+        />
+    </head>
+    <body>
+        <canvas id="petal-canvas"></canvas>
+        <button id="music-btn" onclick="toggleMusic()" title="Nhạc nền">
+            <div class="music-pulse"></div>
+            <svg id="music-icon" viewBox="0 0 24 24">
+                <path
+                    d="M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6z"
+                    opacity=".4"
+                />
+                <line x1="3" y1="3" x2="21" y2="21" stroke="#e2c97e" stroke-width="2" />
+            </svg>
+        </button>
+
+        <!-- ════════════ COVER ════════════ -->
+        <div id="cover">
+            <div class="cover-bg-img"></div>
+            <div class="cover-tint"></div>
+            <div class="cover-shimmer"></div>
+            <div class="orb orb1"></div>
+            <div class="orb orb2"></div>
+            <div class="orb orb3"></div>
+
+            <svg
+                class="cover-flower"
+                style="width: 280px; top: 8%; left: 3%; animation-duration: 30s"
+                viewBox="0 0 100 100"
+                fill="none"
+            >
+                <circle cx="50" cy="50" r="48" stroke="rgba(201,168,76,.4)" stroke-width=".8" />
+                <path
+                    d="M50 5 Q65 30 50 50 Q35 30 50 5"
+                    fill="rgba(201,168,76,.2)"
+                    transform="rotate(0 50 50)"
+                />
+                <path
+                    d="M50 5 Q65 30 50 50 Q35 30 50 5"
+                    fill="rgba(201,168,76,.2)"
+                    transform="rotate(60 50 50)"
+                />
+                <path
+                    d="M50 5 Q65 30 50 50 Q35 30 50 5"
+                    fill="rgba(201,168,76,.2)"
+                    transform="rotate(120 50 50)"
+                />
+                <path
+                    d="M50 5 Q65 30 50 50 Q35 30 50 5"
+                    fill="rgba(201,168,76,.2)"
+                    transform="rotate(180 50 50)"
+                />
+                <path
+                    d="M50 5 Q65 30 50 50 Q35 30 50 5"
+                    fill="rgba(201,168,76,.2)"
+                    transform="rotate(240 50 50)"
+                />
+                <path
+                    d="M50 5 Q65 30 50 50 Q35 30 50 5"
+                    fill="rgba(201,168,76,.2)"
+                    transform="rotate(300 50 50)"
+                />
+                <circle cx="50" cy="50" r="8" fill="rgba(201,168,76,.35)" />
+            </svg>
+            <svg
+                class="cover-flower"
+                style="
+                    width: 200px;
+                    bottom: 6%;
+                    right: 6%;
+                    animation-duration: 22s;
+                    animation-direction: reverse;
+                "
+                viewBox="0 0 100 100"
+                fill="none"
+            >
+                <path
+                    d="M50 5 Q65 30 50 50 Q35 30 50 5"
+                    fill="rgba(255,255,255,.12)"
+                    transform="rotate(0 50 50)"
+                />
+                <path
+                    d="M50 5 Q65 30 50 50 Q35 30 50 5"
+                    fill="rgba(255,255,255,.12)"
+                    transform="rotate(90 50 50)"
+                />
+                <path
+                    d="M50 5 Q65 30 50 50 Q35 30 50 5"
+                    fill="rgba(255,255,255,.12)"
+                    transform="rotate(180 50 50)"
+                />
+                <path
+                    d="M50 5 Q65 30 50 50 Q35 30 50 5"
+                    fill="rgba(255,255,255,.12)"
+                    transform="rotate(270 50 50)"
+                />
+                <circle cx="50" cy="50" r="6" fill="rgba(255,255,255,.18)" />
+            </svg>
+
+            <svg class="c-corner tl" width="220" height="220" viewBox="0 0 220 220" fill="none">
+                <path
+                    d="M5 5 Q60 5 95 50 Q130 95 115 155 Q100 195 65 205"
+                    stroke="rgba(201,168,76,.55)"
+                    stroke-width="1.2"
+                    fill="none"
+                />
+                <ellipse
+                    cx="60"
+                    cy="90"
+                    rx="14"
+                    ry="24"
+                    transform="rotate(-30 60 90)"
+                    fill="rgba(201,168,76,.1)"
+                    stroke="rgba(201,168,76,.38)"
+                    stroke-width="1"
+                />
+                <ellipse
+                    cx="85"
+                    cy="135"
+                    rx="11"
+                    ry="20"
+                    transform="rotate(20 85 135)"
+                    fill="rgba(201,168,76,.08)"
+                    stroke="rgba(201,168,76,.32)"
+                    stroke-width="1"
+                />
+                <circle cx="95" cy="50" r="3.5" fill="rgba(201,168,76,.5)" />
+            </svg>
+            <svg class="c-corner tr" width="220" height="220" viewBox="0 0 220 220" fill="none">
+                <path
+                    d="M5 5 Q60 5 95 50 Q130 95 115 155 Q100 195 65 205"
+                    stroke="rgba(201,168,76,.55)"
+                    stroke-width="1.2"
+                    fill="none"
+                />
+                <ellipse
+                    cx="60"
+                    cy="90"
+                    rx="14"
+                    ry="24"
+                    transform="rotate(-30 60 90)"
+                    fill="rgba(201,168,76,.1)"
+                    stroke="rgba(201,168,76,.38)"
+                    stroke-width="1"
+                />
+                <circle cx="95" cy="50" r="3.5" fill="rgba(201,168,76,.5)" />
+            </svg>
+            <svg class="c-corner bl" width="220" height="220" viewBox="0 0 220 220" fill="none">
+                <path
+                    d="M5 5 Q60 5 95 50 Q130 95 115 155"
+                    stroke="rgba(201,168,76,.55)"
+                    stroke-width="1.2"
+                    fill="none"
+                />
+                <ellipse
+                    cx="60"
+                    cy="90"
+                    rx="14"
+                    ry="24"
+                    transform="rotate(-30 60 90)"
+                    fill="rgba(201,168,76,.1)"
+                    stroke="rgba(201,168,76,.38)"
+                    stroke-width="1"
+                />
+            </svg>
+            <svg class="c-corner br" width="220" height="220" viewBox="0 0 220 220" fill="none">
+                <path
+                    d="M5 5 Q60 5 95 50 Q130 95 115 155"
+                    stroke="rgba(201,168,76,.55)"
+                    stroke-width="1.2"
+                    fill="none"
+                />
+                <ellipse
+                    cx="85"
+                    cy="135"
+                    rx="11"
+                    ry="20"
+                    transform="rotate(20 85 135)"
+                    fill="rgba(201,168,76,.08)"
+                    stroke="rgba(201,168,76,.32)"
+                    stroke-width="1"
+                />
+            </svg>
+
+            <div class="cover-inner">
+                <div class="envelope-wrap">
+                    <svg
+                        width="88"
+                        height="88"
+                        viewBox="0 0 90 90"
+                        fill="none"
+                        style="filter: drop-shadow(0 8px 24px rgba(0, 0, 0, 0.5))"
+                    >
+                        <rect
+                            x="5"
+                            y="22"
+                            width="80"
+                            height="55"
+                            rx="4"
+                            fill="rgba(45,122,110,.3)"
+                            stroke="rgba(201,168,76,.6)"
+                            stroke-width="1.5"
+                        />
+                        <path
+                            d="M5 26 L45 52 L85 26"
+                            stroke="rgba(201,168,76,.6)"
+                            stroke-width="1.5"
+                            fill="none"
+                        />
+                        <path
+                            d="M5 77 L32 52 M85 77 L58 52"
+                            stroke="rgba(201,168,76,.3)"
+                            stroke-width="1"
+                        />
+                        <circle
+                            cx="45"
+                            cy="60"
+                            r="12"
+                            fill="rgba(45,122,110,.6)"
+                            stroke="rgba(201,168,76,.7)"
+                            stroke-width="1.5"
+                        />
+                        <text
+                            x="45"
+                            y="65"
+                            text-anchor="middle"
+                            font-family="Great Vibes,cursive"
+                            font-size="14"
+                            fill="rgba(201,168,76,.9)"
+                        >
+                            ♡
+                        </text>
+                    </svg>
+                </div>
+                <!-- <div class="cover-label">Trân trọng kính mời</div> -->
+                <div class="cover-names">Chiến <span class="cover-amp">&amp;</span> Duyên</div>
+                <div class="heart-divider">
+                    <div class="line"></div>
+                    <span class="hrt">♥</span>
+                    <div class="line"></div>
+                </div>
+                <div class="cover-date">28 · 03 · 2026</div>
+                <div class="cover-invite">Trân Trọng Kính Mời</div>
+                <button class="btn-open" onclick="openCard()">✦ &nbsp;Mở Thiệp&nbsp; ✦</button>
+            </div>
+        </div>
+
+        <!-- ════════════ MAIN ════════════ -->
+        <div id="main">
+            <!-- HERO -->
+            <section class="s-hero">
+                <div class="hero-bg-a"></div>
+                <div class="hero-bg-b"></div>
+                <div class="hero-tint"></div>
+                <div class="hero-tint2"></div>
+                <div class="hero-vignette"></div>
+                <div class="hero-leak"></div>
+                <div class="hero-floral-strip"></div>
+
+                <svg
+                    class="hero-corner tl"
+                    width="200"
+                    height="200"
+                    viewBox="0 0 220 220"
+                    fill="none"
+                >
+                    <path
+                        d="M5 5 Q60 5 95 50 Q130 95 115 155 Q100 195 65 205"
+                        stroke="rgba(201,168,76,.42)"
+                        stroke-width="1.2"
+                        fill="none"
+                    />
+                    <ellipse
+                        cx="60"
+                        cy="90"
+                        rx="14"
+                        ry="24"
+                        transform="rotate(-30 60 90)"
+                        fill="rgba(201,168,76,.08)"
+                        stroke="rgba(201,168,76,.28)"
+                        stroke-width="1"
+                    />
+                </svg>
+                <svg
+                    class="hero-corner tr"
+                    width="200"
+                    height="200"
+                    viewBox="0 0 220 220"
+                    fill="none"
+                >
+                    <path
+                        d="M5 5 Q60 5 95 50 Q130 95 115 155"
+                        stroke="rgba(201,168,76,.42)"
+                        stroke-width="1.2"
+                        fill="none"
+                    />
+                    <ellipse
+                        cx="60"
+                        cy="90"
+                        rx="14"
+                        ry="24"
+                        transform="rotate(-30 60 90)"
+                        fill="rgba(201,168,76,.08)"
+                        stroke="rgba(201,168,76,.28)"
+                        stroke-width="1"
+                    />
+                </svg>
+                <svg
+                    class="hero-corner bl"
+                    width="200"
+                    height="200"
+                    viewBox="0 0 220 220"
+                    fill="none"
+                >
+                    <path
+                        d="M5 5 Q60 5 95 50 Q130 95 115 155"
+                        stroke="rgba(201,168,76,.42)"
+                        stroke-width="1.2"
+                        fill="none"
+                    />
+                </svg>
+                <svg
+                    class="hero-corner br"
+                    width="200"
+                    height="200"
+                    viewBox="0 0 220 220"
+                    fill="none"
+                >
+                    <path
+                        d="M5 5 Q60 5 95 50 Q130 95 115 155"
+                        stroke="rgba(201,168,76,.42)"
+                        stroke-width="1.2"
+                        fill="none"
+                    />
+                </svg>
+
+                <svg
+                    class="bird"
+                    style="top: 18%; width: 56px; animation-duration: 14s; animation-delay: -2s"
+                    viewBox="0 0 60 20"
+                    fill="none"
+                >
+                    <path
+                        d="M5 12 Q15 3 30 10 Q45 3 55 12"
+                        stroke="rgba(255,255,255,.3)"
+                        stroke-width="1.5"
+                        fill="none"
+                    />
+                </svg>
+                <svg
+                    class="bird"
+                    style="top: 26%; width: 40px; animation-duration: 20s; animation-delay: -9s"
+                    viewBox="0 0 60 20"
+                    fill="none"
+                >
+                    <path
+                        d="M5 12 Q15 3 30 10 Q45 3 55 12"
+                        stroke="rgba(255,255,255,.2)"
+                        stroke-width="1.2"
+                        fill="none"
+                    />
+                </svg>
+                <svg
+                    class="bird"
+                    style="top: 44%; width: 48px; animation-duration: 24s; animation-delay: -15s"
+                    viewBox="0 0 60 20"
+                    fill="none"
+                >
+                    <path
+                        d="M5 12 Q15 3 30 10 Q45 3 55 12"
+                        stroke="rgba(255,255,255,.16)"
+                        stroke-width="1"
+                        fill="none"
+                    />
+                </svg>
+                <svg
+                    class="bird"
+                    style="top: 64%; width: 34px; animation-duration: 30s; animation-delay: -6s"
+                    viewBox="0 0 60 20"
+                    fill="none"
+                >
+                    <path
+                        d="M5 12 Q15 3 30 10 Q45 3 55 12"
+                        stroke="rgba(255,255,255,.13)"
+                        stroke-width=".9"
+                        fill="none"
+                    />
+                </svg>
+
+                <div class="hero-content reveal">
+                    <div class="hero-label">❦ Thiệp Cưới ❦</div>
+                    <div class="hero-names">
+                        Quốc Chiến<span class="hero-amp">&amp;</span>Thị Duyên
+                    </div>
+                    <div class="gold-div">
+                        <div class="line"></div>
+                        <span class="star">✦</span>
+                        <div class="line"></div>
+                    </div>
+                    <div class="hero-date">28 tháng 03, năm 2026</div>
+                    <div class="candles">
+                        <div class="candle">
+                            <div
+                                style="
+                                    position: relative;
+                                    width: 14px;
+                                    height: 22px;
+                                    margin-bottom: -1px;
+                                "
+                            >
+                                <div class="flame-outer"></div>
+                                <div class="flame-inner"></div>
+                            </div>
+                            <div class="candle-body" style="height: 46px">
+                                <div class="wax"></div>
+                            </div>
+                        </div>
+                        <div class="candle">
+                            <div
+                                style="
+                                    position: relative;
+                                    width: 14px;
+                                    height: 22px;
+                                    margin-bottom: -1px;
+                                "
+                            >
+                                <div class="flame-outer" style="animation-delay: -0.4s"></div>
+                                <div class="flame-inner" style="animation-delay: -0.4s"></div>
+                            </div>
+                            <div class="candle-body" style="height: 68px">
+                                <div class="wax"></div>
+                            </div>
+                        </div>
+                        <div class="candle">
+                            <div
+                                style="
+                                    position: relative;
+                                    width: 14px;
+                                    height: 22px;
+                                    margin-bottom: -1px;
+                                "
+                            >
+                                <div class="flame-outer" style="animation-delay: -0.7s"></div>
+                                <div class="flame-inner" style="animation-delay: -0.7s"></div>
+                            </div>
+                            <div class="candle-body" style="height: 46px">
+                                <div class="wax"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="scroll-ind">
+                    <svg
+                        width="18"
+                        height="18"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                    >
+                        <path d="M12 5v14M5 12l7 7 7-7" />
+                    </svg>
+                    cuộn xuống
+                </div>
+            </section>
+
+            <!-- STORY -->
+            <section class="story-section">
+                <div class="story-layout">
+                    <div class="story-img-col reveal-left">
+                        <img src="./assets/images/01-large.png" alt="Cặp đôi" class="img-warm" />
+                        <div class="story-color-wash"></div>
+                        <div class="story-shimmer"></div>
+                        <div class="story-ring"></div>
+                        <div class="story-ring2"></div>
+                    </div>
+                    <div class="story-text-col reveal-right">
+                        <div class="s-label">❦ Love Story ❦</div>
+                        <h2 class="s-title">Chuyện Tình Của Chúng Tôi</h2>
+                        <div class="orn">
+                            <div class="line"></div>
+                            <span class="ico">✦</span>
+                            <div class="line"></div>
+                        </div>
+                        <p class="story-quote">
+                            Chúng tôi gặp nhau trong một buổi chiều thu, khi những chiếc lá vàng
+                            đang nhẹ nhàng rơi xuống. Từ ánh mắt đầu tiên ấy, chúng tôi biết rằng
+                            đây là khởi đầu của một hành trình đặc biệt — hành trình mà chúng tôi
+                            muốn đồng hành cùng nhau mãi mãi.
+                        </p>
+                    </div>
+                </div>
+                <div class="story-flowers">
+                    <div class="story-flower-item">
+                        <img
+                            src="https://plus.unsplash.com/premium_photo-1676475965096-701cb7f4c7e8?q=80"
+                            alt="Hoa cưới"
+                        />
+                    </div>
+                    <div class="story-flower-item">
+                        <img
+                            src="https://images.unsplash.com/photo-1606800052052-a08af7148866?q=80"
+                            alt="Hoa cưới"
+                        />
+                    </div>
+                    <div class="story-flower-item">
+                        <img
+                            src="https://media.istockphoto.com/id/1454983450/photo/closeup-shot-of-a-man-helping-the-groom-to-wear-a-decor.webp?a=1&b=1&s=612x612&w=0&k=20&c=xc7cs4w9kg9l1X9py1Vx-2Er23gE65pp4KIZz28DPN8="
+                            alt="Hoa cưới"
+                        />
+                    </div>
+                </div>
+            </section>
+
+            <!-- COUPLE -->
+            <section class="couple-section">
+                <div class="couple-bg-floral"></div>
+                <div class="reveal" style="text-align: center; position: relative">
+                    <div class="s-label">❦ Groom & Bride ❦</div>
+                    <h2 class="s-title" style="color: #2a2a2a">❦ Chú rể &amp; Cô dâu ❦</h2>
+                    <div class="orn">
+                        <div class="line"></div>
+                        <span class="ico">✦</span>
+                        <div class="line"></div>
+                    </div>
+                </div>
+                <div class="couple-wrap">
+                    <div class="person reveal-left">
+                        <div class="photo-tilt-wrap" id="tilt-groom">
+                            <div class="photo-tilt-inner">
+                                <!-- <span>C</span> -->
+                                <img src="./assets/images/02.png" alt="Chú rể Vương Quốc Chiến" />
+                            </div>
+                        </div>
+                        <div class="person-role">Chú Rể</div>
+                        <div class="person-name">Vương Quốc Chiến</div>
+                        <div class="person-parents">
+                            Con trai của Ông Bà<br />Vương Văn Trọng &amp; Phí Thị Quý
+                        </div>
+                    </div>
+                    <div class="couple-sep reveal">
+                        <div class="big-amp">&amp;</div>
+                        <div class="heart-icon">♥</div>
+                    </div>
+                    <div class="person reveal-right">
+                        <div class="photo-tilt-wrap" id="tilt-bride">
+                            <div class="photo-tilt-inner">
+                                <!-- <span>D</span> -->
+                                <img src="./assets/images/03.png" alt="Cô dâu Chu Thị Duyên" />
+                            </div>
+                        </div>
+                        <div class="person-role">Cô Dâu</div>
+                        <div class="person-name">Chu Thị Duyên</div>
+                        <div class="person-parents">
+                            Con gái của Ông Bà<br />
+                            Chu Đức Thắng &amp; Nguyễn Thị Huyền
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- EVENTS -->
+            <section class="events-section">
+                <div class="events-bg"></div>
+                <div class="events-tint"></div>
+                <div style="position: relative; z-index: 1" class="reveal">
+                    <div class="s-label">❦ Wedding Day ❦</div>
+                    <h2 class="s-title white">Lịch Trình Hôn Lễ</h2>
+                    <div class="orn">
+                        <div class="line"></div>
+                        <span class="ico">✦</span>
+                        <div class="line"></div>
+                    </div>
+                </div>
+                <div class="events-grid">
+                    <div class="ev-card reveal delay1">
+                        <div class="ev-card-img-wrap">
+                            <img
+                                src="https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=500&q=80"
+                                alt="Tiệc Cưới"
+                            />
+                        </div>
+                        <span class="ev-icon">🥂</span>
+                        <div class="ev-name">Tiệc Cưới</div>
+                        <div class="ev-time">17:00 Tối · Thứ Bảy<br />28/03/2026</div>
+                        <div class="ev-place">Nhà Chú Rể<br />Thạch Thất, Hà Nội</div>
+                    </div>
+                    <div class="ev-card reveal delay2">
+                        <div class="ev-card-img-wrap">
+                            <img
+                                src="https://images.unsplash.com/photo-1583939003579-730e3918a45a?w=500&q=80"
+                                alt="Lễ Vu Quy"
+                            />
+                        </div>
+                        <span class="ev-icon">🕯️</span>
+                        <div class="ev-name">Lễ Vu Quy</div>
+                        <div class="ev-time">10:00 Sáng · Chủ Nhật<br />29/03/2026</div>
+                        <div class="ev-place">Nhà Chú Rể<br />Thạch Thất, Hà Nội</div>
+                    </div>
+                    <div class="ev-card reveal delay3">
+                        <div class="ev-card-img-wrap">
+                            <img
+                                src="https://images.unsplash.com/photo-1519741497674-611481863552?w=500&q=80"
+                                alt="Lễ Thành Hôn"
+                            />
+                        </div>
+                        <span class="ev-icon">💍</span>
+                        <div class="ev-name">Lễ Thành Hôn</div>
+                        <div class="ev-time">12:00 Trưa · Chủ Nhật<br />29/03/2026</div>
+                        <div class="ev-place">Nhà Chú Rể<br />Thạch Thất, Hà Nội</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- COUNTDOWN -->
+            <section class="countdown-section">
+                <div class="cd-bg"></div>
+                <div class="cd-blob cd-blob1"></div>
+                <div class="cd-blob cd-blob2"></div>
+                <div class="cd-rings">
+                    <img
+                        src="https://images.unsplash.com/photo-1550005809-91ad75fb315f?w=300&q=80"
+                        alt="Nhẫn cưới"
+                    />
+                </div>
+                <div class="cd-flower">
+                    <img
+                        src="https://plus.unsplash.com/premium_photo-1675063300381-6d341a3088df?q=80"
+                        alt="Hoa"
+                    />
+                </div>
+                <div style="position: relative; z-index: 1" class="reveal">
+                    <div class="s-label">❦ Countdown ❦</div>
+                    <h2 class="s-title">Khoảnh Khắc Hạnh Phúc Sắp Đến</h2>
+                    <div class="orn">
+                        <div class="line"></div>
+                        <span class="ico">✦</span>
+                        <div class="line"></div>
+                    </div>
+                    <div class="countdown-row">
+                        <div class="cd-block reveal-scale delay1">
+                            <div class="cd-num" id="cd-d">--</div>
+                            <div class="cd-lbl">Ngày</div>
+                        </div>
+                        <div class="cd-block reveal-scale delay2">
+                            <div class="cd-num" id="cd-h">--</div>
+                            <div class="cd-lbl">Giờ</div>
+                        </div>
+                        <div class="cd-block reveal-scale delay3">
+                            <div class="cd-num" id="cd-m">--</div>
+                            <div class="cd-lbl">Phút</div>
+                        </div>
+                        <div class="cd-block reveal-scale delay4">
+                            <div class="cd-num" id="cd-s">--</div>
+                            <div class="cd-lbl">Giây</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- GALLERY -->
+            <section class="gallery-section">
+                <div class="reveal" style="text-align: center">
+                    <div class="s-label">❦ Photo Gallery ❦</div>
+                    <h2 class="s-title" style="color: #2a2a2a">Album Ảnh Cưới</h2>
+                    <div class="orn">
+                        <div class="line"></div>
+                        <span class="ico">✦</span>
+                        <div class="line"></div>
+                    </div>
+                </div>
+                <div class="gallery-grid">
+                    <div
+                        class="g-item g1"
+                        onclick="openLB('./assets/images/01.png', 'Quốc Chiến &amp; Thị')"
+                    >
+                        <div class="g-curtain"></div>
+                        <img src="./assets/images/01.png" alt="..." style="height: 100%" />
+                        <div class="g-overlay">
+                            <div class="g-overlay-txt">Quốc Chiến &amp; Thị Duyên</div>
+                            <svg
+                                class="g-overlay-icon"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                            >
+                                <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div
+                        class="g-item g2"
+                        onclick="openLB('./assets/images/01.png', 'Khoảnh khắc đẹp')"
+                    >
+                        <div class="g-curtain"></div>
+                        <img src="./assets/images/01.png" alt="..." />
+                        <div class="g-overlay">
+                            <svg
+                                class="g-overlay-icon"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                            >
+                                <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div
+                        class="g-item g3"
+                        onclick="openLB('./assets/images/01.png', 'Tình yêu đích thực')"
+                    >
+                        <div class="g-curtain"></div>
+                        <img src="./assets/images/01.png" alt="Quốc Chiến & Thị Duyên" />
+                        <div class="g-overlay">
+                            <div class="g-overlay-txt">♡</div>
+                            <svg
+                                class="g-overlay-icon"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                            >
+                                <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="g-item g4" onclick="openLB('./assets/images/01.png', 'Hoa cưới')">
+                        <div class="g-curtain"></div>
+                        <img src="./assets/images/01.png" alt="" />
+                        <div class="g-overlay">
+                            <svg
+                                class="g-overlay-icon"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                            >
+                                <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="g-item g5" onclick="openLB('./assets/images/01.png', 'Tiệc cưới')">
+                        <div class="g-curtain"></div>
+                        <img src="./assets/images/01.png" alt="" />
+                        <div class="g-overlay">
+                            <svg
+                                class="g-overlay-icon"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                            >
+                                <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="g-item g6" onclick="openLB('./assets/images/01.png', 'Nhẫn cưới')">
+                        <div class="g-curtain"></div>
+                        <img src="./assets/images/01.png" alt="" />
+                        <div class="g-overlay">
+                            <div class="g-overlay-txt">♡</div>
+                            <svg
+                                class="g-overlay-icon"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                            >
+                                <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- WISHES -->
+            <section class="wishes-section">
+                <div class="wishes-bg"></div>
+                <div class="wishes-tint"></div>
+                <img
+                    class="wish-rose"
+                    src="https://media.istockphoto.com/id/1081885512/photo/engagement-ring-and-a-wedding-invitation-calligraphy.webp?a=1&b=1&s=612x612&w=0&k=20&c=eJWU6TbIU0X-IOnpMiDnfFxw86aAzw9cP9Ov6NHtRCw="
+                    alt=""
+                />
+                <div style="position: relative; z-index: 1" class="reveal">
+                    <div class="s-label">❦ Best Wishes ❦</div>
+                    <h2 class="s-title white">Gửi Lời Chúc Phúc</h2>
+                    <div class="orn">
+                        <div class="line"></div>
+                        <span class="ico">✦</span>
+                        <div class="line"></div>
+                    </div>
+                </div>
+                <div class="wish-form reveal">
+                    <input
+                        type="text"
+                        class="wish-input"
+                        id="w-name"
+                        placeholder="Họ tên của bạn"
+                    />
+                    <textarea
+                        class="wish-input"
+                        id="w-text"
+                        placeholder="Lời chúc mừng của bạn…"
+                    ></textarea>
+                    <button class="wish-btn" onclick="addWish()">
+                        ✦ &nbsp;Gửi Lời Chúc&nbsp; ✦
+                    </button>
+                </div>
+                <div class="wish-list" id="wish-list"></div>
+            </section>
+
+            <!-- LOCATION -->
+            <section class="location-section">
+                <div class="reveal">
+                    <div class="s-label">❦ Wedding Venue ❦</div>
+                    <h2 class="s-title">Tiệc cưới sẽ tổ chức tại</h2>
+                    <div class="orn">
+                        <div class="line"></div>
+                        <span class="ico">✦</span>
+                        <div class="line"></div>
+                    </div>
+                </div>
+                <div class="location-triptych">
+                    <div class="triptych-item">
+                        <img src="./assets/images/01.png" alt="" />
+                        <div class="triptych-label">Lễ đường</div>
+                    </div>
+                    <div class="triptych-item">
+                        <img src="./assets/images/01.png" alt="" />
+                        <div class="triptych-label">Tiệc cưới</div>
+                    </div>
+                    <div class="triptych-item">
+                        <img src="./assets/images/01.png" alt="" />
+                        <div class="triptych-label">White Palace</div>
+                    </div>
+                </div>
+                <div class="map-box reveal">
+                    <div class="map-pin-wrap">
+                        <svg
+                            viewBox="0 0 24 24"
+                            fill="currentColor"
+                            style="width: 38px; height: 38px; color: #1a4f47"
+                        >
+                            <path
+                                d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"
+                            />
+                        </svg>
+                        <div class="map-addr">Đội 1, Thôn Sơn Trung, Xã Quốc Oai, Hà Nội</div>
+                        <a
+                            class="map-btn"
+                            href="https://maps.google.com?q=White+Palace+Phu+Nhuan+Ho+Chi+Minh"
+                            target="_blank"
+                            >Xem bản đồ</a
+                        >
+                    </div>
+                </div>
+            </section>
+
+            <!-- FOOTER -->
+            <footer>
+                <div class="footer-bg"></div>
+                <div class="footer-tint"></div>
+                <div class="footer-flowers">
+                    <div class="footer-flower">
+                        <img
+                            src="https://plus.unsplash.com/premium_photo-1674235768629-ad5011d65812?q=80"
+                            alt=""
+                        />
+                    </div>
+                    <div class="footer-flower">
+                        <img
+                            src="https://images.unsplash.com/photo-1597095465343-ac8c759023f3?q=80"
+                            alt=""
+                        />
+                    </div>
+                    <div class="footer-flower">
+                        <img
+                            src="https://images.unsplash.com/photo-1596802188729-225e979fa72c?q=80"
+                            alt=""
+                        />
+                    </div>
+                    <div class="footer-flower">
+                        <img
+                            src="https://images.unsplash.com/photo-1750735698449-6444e0424cbd?q=80"
+                            alt=""
+                        />
+                    </div>
+                </div>
+                <div class="footer-names reveal">Chiến <span> &amp; </span> Duyên</div>
+                <div class="footer-date reveal">29 · 03 · 2026</div>
+                <div class="footer-line"></div>
+                <div class="footer-copy">ᰔᩚ</div>
+            </footer>
+        </div>
+
+        <!-- LIGHTBOX -->
+        <div id="lightbox" onclick="closeLB()">
+            <span id="lb-close">✕</span>
+            <div id="lightbox-inner">
+                <img id="lb-img" src="" alt="" />
+                <div id="lb-caption"></div>
+            </div>
+        </div>
+
+        <script src="./assets/js/main.js"></script>
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "Event",
+                "name": "Lễ Thành Hôn Quốc Chiến & Thị Duyên",
+                "startDate": "2026-03-28T17:00",
+                "endDate": "2026-03-29T13:00",
+                "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+                "eventStatus": "https://schema.org/EventScheduled",
+                "location": {
+                    "@type": "Place",
+                    "name": "Nhà Chú Rể",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Thạch Thất",
+                        "addressRegion": "Hà Nội",
+                        "addressCountry": "VN"
+                    }
+                },
+                "image": ["https://chienduyen-wedding.vercel.app/assets/images/01-large.png"],
+                "description": "Lễ thành hôn của Quốc Chiến và Thị Duyên được tổ chức ngày 28 tháng 03 năm 2026.",
+                "organizer": {
+                    "@type": "Person",
+                    "name": "Quốc Chiến & Thị Duyên"
+                }
+            }
+        </script>
+    </body>
+</html>
