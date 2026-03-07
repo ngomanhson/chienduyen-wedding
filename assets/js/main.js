@@ -79,7 +79,7 @@ let petalOn = false;
 
 /* ══ OPEN ══ */
 function openCard() {
-    toggleMusic();
+    // toggleMusic();
     document.getElementById("cover").classList.add("hidden");
     petalOn = true;
     setTimeout(() => {

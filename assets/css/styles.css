@@ -1665,15 +1665,13 @@ body {
     border-top-right-radius: var(--radius);
     border-bottom-left-radius: var(--radius);
     text-align: center;
-    transition:
-        transform 0.2s,
-        box-shadow 0.2s;
+    transition: all 0.5s ease-in;
 }
 .cd-block .flower-top {
     position: absolute;
-    top: -17px;
-    width: 88px;
-    left: -21px;
+    top: -14px;
+    width: 70px;
+    left: -17px;
 }
 .cd-block .flower-bottom {
     position: absolute;
