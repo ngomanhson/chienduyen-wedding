@@ -4,26 +4,18 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Wedding Invitation | Quốc Chiến & Chu Duyên</title>
-        <link rel="stylesheet" href="./assets/css/styles.min.css" />
+        <link rel="stylesheet" href="/assets/css/styles.min.css" />
+        <!-- <link rel="stylesheet" href="/assets/css/styles.css" /> -->
         <link
             href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Montserrat:wght@300;400;500&display=swap"
             rel="stylesheet"
         />
 
-        <link
-            rel="icon"
-            type="image/png"
-            href="./assets/images/favicon/favicon-96x96.png"
-            sizes="96x96"
-        />
-        <link rel="icon" type="image/svg+xml" href="./assets/images/favicon/favicon.svg" />
-        <link rel="shortcut icon" href="./assets/images/favicon/favicon.ico" />
-        <link
-            rel="apple-touch-icon"
-            sizes="180x180"
-            href="./assets/images/favicon/apple-touch-icon.png"
-        />
-        <link rel="manifest" href="./assets/images/favicon/site.webmanifest" />
+        <link rel="icon" type="image/png" href="/assets/favicon/favicon-96x96.png" sizes="96x96" />
+        <link rel="icon" type="image/svg+xml" href="/assets/favicon/favicon.svg" />
+        <link rel="shortcut icon" href="/assets/favicon/favicon.ico" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png" />
+        <link rel="manifest" href="/assets/favicon/site.webmanifest" />
 
         <!-- Basic SEO -->
         <meta
@@ -47,7 +39,7 @@
         />
         <meta
             property="og:image"
-            content="https://chienduyen-wedding.vercel.app/assets/images/01-large.png"
+            content="https://chienduyen-wedding.vercel.app/assets/images/og-image.png"
         />
         <meta property="og:url" content="https://chienduyen-wedding.vercel.app/" />
         <meta property="og:image:type" content="image/png" />
@@ -65,9 +57,10 @@
             name="twitter:description"
             content="Trân trọng kính mời đến tham dự lễ thành hôn của Quốc Chiến và Chu Duyên, được tổ chức vào ngày 28 tháng 03 năm 2026. Sự hiện diện của bạn là niềm vinh hạnh và niềm vui lớn đối với gia đình chúng tôi."
         />
+
         <meta
             name="twitter:image"
-            content="https://chienduyen-wedding.vercel.app/assets/images/01-large.png"
+            content="https://chienduyen-wedding.vercel.app/assets/images/og-image.png"
         />
     </head>
     <body>
@@ -320,6 +313,7 @@
             <section class="s-hero">
                 <div class="hero-bg-a"></div>
                 <div class="hero-bg-b"></div>
+                <div class="hero-bg-c"></div>
                 <div class="hero-tint"></div>
                 <div class="hero-tint2"></div>
                 <div class="hero-vignette"></div>
@@ -540,7 +534,7 @@
             <section class="story-section">
                 <div class="story-layout">
                     <div class="story-img-col reveal-left">
-                        <img src="./assets/images/01-large.png" alt="Cặp đôi" class="img-warm" />
+                        <img src="/assets/images/story-image.jpg" alt="Cặp đôi" class="img-warm" />
                         <div class="story-color-wash"></div>
                         <div class="story-shimmer"></div>
                         <div class="story-ring"></div>
@@ -564,22 +558,13 @@
                 </div>
                 <div class="story-flowers">
                     <div class="story-flower-item">
-                        <img
-                            src="https://plus.unsplash.com/premium_photo-1676475965096-701cb7f4c7e8?q=80"
-                            alt="Hoa cưới"
-                        />
+                        <img src="/assets/images/flowers/flower-001.webp" alt="" />
                     </div>
                     <div class="story-flower-item">
-                        <img
-                            src="https://images.unsplash.com/photo-1606800052052-a08af7148866?q=80"
-                            alt="Hoa cưới"
-                        />
+                        <img src="/assets/images/DSC_5315.webp" alt="" />
                     </div>
                     <div class="story-flower-item">
-                        <img
-                            src="https://media.istockphoto.com/id/1454983450/photo/closeup-shot-of-a-man-helping-the-groom-to-wear-a-decor.webp?a=1&b=1&s=612x612&w=0&k=20&c=xc7cs4w9kg9l1X9py1Vx-2Er23gE65pp4KIZz28DPN8="
-                            alt="Hoa cưới"
-                        />
+                        <img src="/assets/images/flowers/flower-002.webp" alt="" />
                     </div>
                 </div>
             </section>
@@ -589,7 +574,7 @@
                 <div class="couple-bg-floral"></div>
                 <div class="reveal" style="text-align: center; position: relative">
                     <div class="s-label">❦ Groom & Bride ❦</div>
-                    <h2 class="s-title" style="color: #2a2a2a">❦ Chú rể &amp; Cô dâu ❦</h2>
+                    <h2 class="s-title" style="color: var(--gold)">❦ Chú rể &amp; Cô dâu ❦</h2>
                     <div class="orn">
                         <div class="line"></div>
                         <span class="ico">✦</span>
@@ -601,7 +586,10 @@
                         <div class="photo-tilt-wrap" id="tilt-groom">
                             <div class="photo-tilt-inner">
                                 <!-- <span>C</span> -->
-                                <img src="./assets/images/02.png" alt="Chú rể Vương Quốc Chiến" />
+                                <img
+                                    src="/assets/images/quoc-chien.webp"
+                                    alt="Chú rể Vương Quốc Chiến"
+                                />
                             </div>
                         </div>
                         <div class="person-role">Chú Rể</div>
@@ -618,7 +606,10 @@
                         <div class="photo-tilt-wrap" id="tilt-bride">
                             <div class="photo-tilt-inner">
                                 <!-- <span>D</span> -->
-                                <img src="./assets/images/03.png" alt="Cô dâu Chu Thị Duyên" />
+                                <img
+                                    src="/assets/images/chu-duyen.webp"
+                                    alt="Cô dâu Chu Thị Duyên"
+                                />
                             </div>
                         </div>
                         <div class="person-role">Cô Dâu</div>
@@ -647,10 +638,7 @@
                 <div class="events-grid">
                     <div class="ev-card reveal delay1">
                         <div class="ev-card-img-wrap">
-                            <img
-                                src="https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=500&q=80"
-                                alt="Tiệc Cưới"
-                            />
+                            <img src="/assets/images/DSC_5680.webp" alt="Tiệc Cưới" />
                         </div>
                         <span class="ev-icon">🥂</span>
                         <div class="ev-name">Tiệc Cưới</div>
@@ -659,10 +647,7 @@
                     </div>
                     <div class="ev-card reveal delay2">
                         <div class="ev-card-img-wrap">
-                            <img
-                                src="https://images.unsplash.com/photo-1583939003579-730e3918a45a?w=500&q=80"
-                                alt="Lễ Vu Quy"
-                            />
+                            <img src="/assets/images/DSC_5527-cr.webp" alt="Lễ Vu Quy" />
                         </div>
                         <span class="ev-icon">🕯️</span>
                         <div class="ev-name">Lễ Vu Quy</div>
@@ -671,10 +656,7 @@
                     </div>
                     <div class="ev-card reveal delay3">
                         <div class="ev-card-img-wrap">
-                            <img
-                                src="https://images.unsplash.com/photo-1519741497674-611481863552?w=500&q=80"
-                                alt="Lễ Thành Hôn"
-                            />
+                            <img src="/assets/images/DSC_5255-61.webp" alt="Lễ Thành Hôn" />
                         </div>
                         <span class="ev-icon">💍</span>
                         <div class="ev-name">Lễ Thành Hôn</div>
@@ -690,16 +672,10 @@
                 <div class="cd-blob cd-blob1"></div>
                 <div class="cd-blob cd-blob2"></div>
                 <div class="cd-rings">
-                    <img
-                        src="https://images.unsplash.com/photo-1550005809-91ad75fb315f?w=300&q=80"
-                        alt="Nhẫn cưới"
-                    />
+                    <img src="/assets/images/DSC_5263.webp" alt="" />
                 </div>
                 <div class="cd-flower">
-                    <img
-                        src="https://plus.unsplash.com/premium_photo-1675063300381-6d341a3088df?q=80"
-                        alt="Hoa"
-                    />
+                    <img src="/assets/images/DSC_5432.webp" alt="" />
                 </div>
                 <div style="position: relative; z-index: 1" class="reveal">
                     <div class="s-label">❦ Countdown ❦</div>
@@ -713,42 +689,26 @@
                         <div class="cd-block reveal-scale delay1">
                             <div class="cd-num" id="cd-d">--</div>
                             <div class="cd-lbl">Ngày</div>
-                            <img
-                                src="./assets/images/flower-vector.png"
-                                alt=""
-                                class="flower-top"
-                            />
-                            <img src="./assets/images/vector.png" alt="" class="flower-bottom" />
+                            <img src="/assets/images/flower-vector.png" alt="" class="flower-top" />
+                            <img src="/assets/images/vector.png" alt="" class="flower-bottom" />
                         </div>
                         <div class="cd-block reveal-scale delay2">
                             <div class="cd-num" id="cd-h">--</div>
                             <div class="cd-lbl">Giờ</div>
-                            <img
-                                src="./assets/images/flower-vector.png"
-                                alt=""
-                                class="flower-top"
-                            />
-                            <img src="./assets/images/vector.png" alt="" class="flower-bottom" />
+                            <img src="/assets/images/flower-vector.png" alt="" class="flower-top" />
+                            <img src="/assets/images/vector.png" alt="" class="flower-bottom" />
                         </div>
                         <div class="cd-block reveal-scale delay3">
                             <div class="cd-num" id="cd-m">--</div>
                             <div class="cd-lbl">Phút</div>
-                            <img
-                                src="./assets/images/flower-vector.png"
-                                alt=""
-                                class="flower-top"
-                            />
-                            <img src="./assets/images/vector.png" alt="" class="flower-bottom" />
+                            <img src="/assets/images/flower-vector.png" alt="" class="flower-top" />
+                            <img src="/assets/images/vector.png" alt="" class="flower-bottom" />
                         </div>
                         <div class="cd-block reveal-scale delay4">
                             <div class="cd-num" id="cd-s">--</div>
                             <div class="cd-lbl">Giây</div>
-                            <img
-                                src="./assets/images/flower-vector.png"
-                                alt=""
-                                class="flower-top"
-                            />
-                            <img src="./assets/images/vector.png" alt="" class="flower-bottom" />
+                            <img src="/assets/images/flower-vector.png" alt="" class="flower-top" />
+                            <img src="/assets/images/vector.png" alt="" class="flower-bottom" />
                         </div>
                     </div>
                 </div>
@@ -758,7 +718,7 @@
             <section class="gallery-section">
                 <div class="reveal" style="text-align: center">
                     <div class="s-label">❦ Photo Gallery ❦</div>
-                    <h2 class="s-title" style="color: #2a2a2a">Album Ảnh Cưới</h2>
+                    <h2 class="s-title">Album Ảnh Cưới</h2>
                     <div class="orn">
                         <div class="line"></div>
                         <span class="ico">✦</span>
@@ -768,10 +728,12 @@
                 <div class="gallery-grid">
                     <div
                         class="g-item g1"
-                        onclick="openLB('./assets/images/01.png', 'Quốc Chiến &amp; Chu Duyên')"
+                        onclick="
+                            openLB('/assets/images/DSC_5272.jpg', 'Quốc Chiến &amp; Chu Duyên')
+                        "
                     >
                         <div class="g-curtain"></div>
-                        <img src="./assets/images/01.png" alt="..." style="height: 100%" />
+                        <img src="/assets/images/DSC_5272.jpg" alt="..." style="height: 100%" />
                         <div class="g-overlay">
                             <div class="g-overlay-txt">Quốc Chiến &amp; Chu Duyên</div>
                             <svg
@@ -787,10 +749,10 @@
                     </div>
                     <div
                         class="g-item g2"
-                        onclick="openLB('./assets/images/01.png', 'Khoảnh khắc đẹp')"
+                        onclick="openLB('/assets/images/DSC_5319.jpg', 'Khoảnh khắc đẹp')"
                     >
                         <div class="g-curtain"></div>
-                        <img src="./assets/images/01.png" alt="..." />
+                        <img src="/assets/images/DSC_5319.jpg" alt="..." />
                         <div class="g-overlay">
                             <svg
                                 class="g-overlay-icon"
@@ -805,10 +767,10 @@
                     </div>
                     <div
                         class="g-item g3"
-                        onclick="openLB('./assets/images/01.png', 'Tình yêu đích thực')"
+                        onclick="openLB('/assets/images/DSC_5667.jpg', 'Tình yêu đích thực')"
                     >
                         <div class="g-curtain"></div>
-                        <img src="./assets/images/01.png" alt="Quốc Chiến & Chu Duyên" />
+                        <img src="/assets/images/DSC_5667.jpg" alt="Quốc Chiến & Chu Duyên" />
                         <div class="g-overlay">
                             <div class="g-overlay-txt">♡</div>
                             <svg
@@ -822,9 +784,9 @@
                             </svg>
                         </div>
                     </div>
-                    <div class="g-item g4" onclick="openLB('./assets/images/01.png', 'Hoa cưới')">
+                    <div class="g-item g4" onclick="openLB('/assets/images/DSC_5630.jpg', '')">
                         <div class="g-curtain"></div>
-                        <img src="./assets/images/01.png" alt="" />
+                        <img src="/assets/images/DSC_5630.jpg" alt="" />
                         <div class="g-overlay">
                             <svg
                                 class="g-overlay-icon"
@@ -837,9 +799,9 @@
                             </svg>
                         </div>
                     </div>
-                    <div class="g-item g5" onclick="openLB('./assets/images/01.png', 'Tiệc cưới')">
+                    <div class="g-item g5" onclick="openLB('/assets/images/DSC_5719.jpg', '')">
                         <div class="g-curtain"></div>
-                        <img src="./assets/images/01.png" alt="" />
+                        <img src="/assets/images/DSC_5719.jpg" alt="" />
                         <div class="g-overlay">
                             <svg
                                 class="g-overlay-icon"
@@ -852,9 +814,9 @@
                             </svg>
                         </div>
                     </div>
-                    <div class="g-item g6" onclick="openLB('./assets/images/01.png', 'Nhẫn cưới')">
+                    <div class="g-item g6" onclick="openLB('/assets/images/DSC_5527.jpg', '')">
                         <div class="g-curtain"></div>
-                        <img src="./assets/images/01.png" alt="" />
+                        <img src="/assets/images/DSC_5527.jpg" alt="" />
                         <div class="g-overlay">
                             <div class="g-overlay-txt">♡</div>
                             <svg
@@ -875,11 +837,7 @@
             <section class="wishes-section">
                 <div class="wishes-bg"></div>
                 <div class="wishes-tint"></div>
-                <img
-                    class="wish-rose"
-                    src="https://media.istockphoto.com/id/1081885512/photo/engagement-ring-and-a-wedding-invitation-calligraphy.webp?a=1&b=1&s=612x612&w=0&k=20&c=eJWU6TbIU0X-IOnpMiDnfFxw86aAzw9cP9Ov6NHtRCw="
-                    alt=""
-                />
+                <img class="wish-rose" src="/assets/images/ring.webp" alt="" />
                 <div style="position: relative; z-index: 1" class="reveal">
                     <div class="s-label">❦ Best Wishes ❦</div>
                     <h2 class="s-title white">Gửi Lời Chúc Phúc</h2>
@@ -921,16 +879,16 @@
                 </div>
                 <div class="location-triptych">
                     <div class="triptych-item">
-                        <img src="./assets/images/01.png" alt="" />
-                        <div class="triptych-label">Lễ đường</div>
+                        <img src="/assets/images/cr-01.webp" alt="" />
+                        <div class="triptych-label">❦</div>
                     </div>
                     <div class="triptych-item">
-                        <img src="./assets/images/01.png" alt="" />
-                        <div class="triptych-label">Tiệc cưới</div>
+                        <img src="/assets/images/cr-02.webp" alt="" />
+                        <div class="triptych-label">❦</div>
                     </div>
                     <div class="triptych-item">
-                        <img src="./assets/images/01.png" alt="" />
-                        <div class="triptych-label">White Palace</div>
+                        <img src="/assets/images/cr-03.webp" alt="" />
+                        <div class="triptych-label">❦</div>
                     </div>
                 </div>
                 <div class="map-box reveal">
@@ -961,28 +919,16 @@
                 <div class="footer-tint"></div>
                 <div class="footer-flowers">
                     <div class="footer-flower">
-                        <img
-                            src="https://plus.unsplash.com/premium_photo-1674235768629-ad5011d65812?q=80"
-                            alt=""
-                        />
+                        <img src="/assets/images/flowers/flower-01.webp" alt="" />
                     </div>
                     <div class="footer-flower">
-                        <img
-                            src="https://images.unsplash.com/photo-1597095465343-ac8c759023f3?q=80"
-                            alt=""
-                        />
+                        <img src="/assets/images/flowers/flower-02.webp" alt="" />
                     </div>
                     <div class="footer-flower">
-                        <img
-                            src="https://images.unsplash.com/photo-1596802188729-225e979fa72c?q=80"
-                            alt=""
-                        />
+                        <img src="/assets/images/flowers/flower-03.webp" alt="" />
                     </div>
                     <div class="footer-flower">
-                        <img
-                            src="https://images.unsplash.com/photo-1750735698449-6444e0424cbd?q=80"
-                            alt=""
-                        />
+                        <img src="/assets/images/flowers/flower-04.webp" alt="" />
                     </div>
                 </div>
                 <div class="footer-names reveal">Chiến <span> &amp; </span> Duyên</div>
@@ -1001,7 +947,7 @@
             </div>
         </div>
 
-        <script src="./assets/js/main.min.js"></script>
+        <script src="/assets/js/main.min.js"></script>
         <script type="application/ld+json">
             {
                 "@context": "https://schema.org",
