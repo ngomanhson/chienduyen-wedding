@@ -1533,14 +1533,37 @@ body {
     line-height: 2.2;
     padding: 0 28px;
 }
-.ev-place {
+.place-wrapper {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+.place-title {
     font-family: "Cormorant Garamond", serif;
-    font-size: 14px;
-    font-style: italic;
-    color: rgba(255, 255, 255, 0.5);
-    margin-top: 6px;
-    line-height: 1.6;
-    padding: 0 28px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #f5e6c8;
+    letter-spacing: 1px;
+}
+.place-line {
+    width: 60px;
+    height: 1px;
+    margin: 6px auto;
+    background: linear-gradient(to right, transparent, rgba(255, 215, 160, 0.8), transparent);
+}
+.place-address {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.75);
+    letter-spacing: 0.5px;
+}
+.place-title::before {
+    content: "✦";
+    margin-right: 6px;
+    font-size: 11px;
+    opacity: 0.7;
 }
 
 /* ══════════════════════════════
@@ -2048,9 +2071,9 @@ textarea.wish-input {
 .location-triptych {
     display: grid;
     grid-template-columns: 1fr 1.4fr 1fr;
-    gap: 6px;
+    gap: 10px;
     max-width: 780px;
-    margin: 0 auto 30px;
+    margin: 0 auto 10px;
     height: 160px;
 }
 /* @media (max-width: 560px) {
@@ -2134,6 +2157,21 @@ textarea.wish-input {
 }
 .triptych-item:hover .triptych-label {
     transform: translateY(0);
+}
+
+.map-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    max-width: 780px;
+    margin: 0 auto;
+    width: 100%;
+
+    @media (max-width: 560px) {
+        grid-template-columns: 1fr;
+    }
 }
 
 .map-box {

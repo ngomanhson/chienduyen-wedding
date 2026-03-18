@@ -643,7 +643,19 @@
                         <span class="ev-icon">🥂</span>
                         <div class="ev-name">Tiệc Cưới</div>
                         <div class="ev-time">17:00 Tối · Thứ Bảy<br />28/03/2026</div>
-                        <div class="ev-place">Nhà Chú Rể<br />Thạch Thất, Hà Nội</div>
+                        <div class="place-wrapper">
+                            <div class="place-item">
+                                <div class="place-title">Nhà Chú Rể</div>
+                                <div class="place-line"></div>
+                                <div class="place-address">Thạch Thất, Hà Nội</div>
+                            </div>
+
+                            <div class="place-item">
+                                <div class="place-title">Nhà Cô Dâu</div>
+                                <div class="place-line"></div>
+                                <div class="place-address">Quốc Oai, Hà Nội</div>
+                            </div>
+                        </div>
                     </div>
                     <div class="ev-card reveal delay2">
                         <div class="ev-card-img-wrap">
@@ -652,7 +664,19 @@
                         <span class="ev-icon">🕯️</span>
                         <div class="ev-name">Lễ Vu Quy</div>
                         <div class="ev-time">10:00 Sáng · Chủ Nhật<br />29/03/2026</div>
-                        <div class="ev-place">Nhà Chú Rể<br />Thạch Thất, Hà Nội</div>
+                        <div class="place-wrapper">
+                            <div class="place-item">
+                                <div class="place-title">Nhà Chú Rể</div>
+                                <div class="place-line"></div>
+                                <div class="place-address">Thạch Thất, Hà Nội</div>
+                            </div>
+
+                            <div class="place-item">
+                                <div class="place-title">Nhà Cô Dâu</div>
+                                <div class="place-line"></div>
+                                <div class="place-address">Quốc Oai, Hà Nội</div>
+                            </div>
+                        </div>
                     </div>
                     <div class="ev-card reveal delay3">
                         <div class="ev-card-img-wrap">
@@ -661,7 +685,19 @@
                         <span class="ev-icon">💍</span>
                         <div class="ev-name">Lễ Thành Hôn</div>
                         <div class="ev-time">12:00 Trưa · Chủ Nhật<br />29/03/2026</div>
-                        <div class="ev-place">Nhà Chú Rể<br />Thạch Thất, Hà Nội</div>
+                        <div class="place-wrapper">
+                            <div class="place-item">
+                                <div class="place-title">Nhà Chú Rể</div>
+                                <div class="place-line"></div>
+                                <div class="place-address">Thạch Thất, Hà Nội</div>
+                            </div>
+
+                            <div class="place-item">
+                                <div class="place-title">Nhà Cô Dâu</div>
+                                <div class="place-line"></div>
+                                <div class="place-address">Quốc Oai, Hà Nội</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -879,11 +915,23 @@
                 </div>
                 <div class="location-triptych">
                     <div class="triptych-item">
-                        <img src="/assets/images/cr-01.webp" alt="" />
+                        <picture>
+                            <source
+                                media="(max-width: 560px)"
+                                srcset="/assets/images/DSC_5442.webp"
+                            />
+                            <img src="/assets/images/cr-01.webp" alt="" />
+                        </picture>
                         <div class="triptych-label">❦</div>
                     </div>
                     <div class="triptych-item">
-                        <img src="/assets/images/cr-02.webp" alt="" />
+                        <picture>
+                            <source
+                                media="(max-width: 560px)"
+                                srcset="/assets/images/cr-002.webp"
+                            />
+                            <img src="/assets/images/cr-02.webp" alt="" />
+                        </picture>
                         <div class="triptych-label">❦</div>
                     </div>
                     <div class="triptych-item">
@@ -891,24 +939,49 @@
                         <div class="triptych-label">❦</div>
                     </div>
                 </div>
-                <div class="map-box reveal">
-                    <div class="map-pin-wrap">
-                        <svg
-                            viewBox="0 0 24 24"
-                            fill="currentColor"
-                            style="width: 38px; height: 38px; color: #1a4f47"
-                        >
-                            <path
-                                d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"
-                            />
-                        </svg>
-                        <div class="map-addr">Đội 1, Thôn Sơn Trung, Xã Quốc Oai, Hà Nội</div>
-                        <a
-                            class="map-btn"
-                            href="https://maps.app.goo.gl/Bejr6kKbukEFXMRh7?g_st=ic"
-                            target="_blank"
-                            >Xem bản đồ</a
-                        >
+                <div class="map-wrapper">
+                    <div class="map-box reveal">
+                        <div class="map-pin-wrap">
+                            <svg
+                                viewBox="0 0 24 24"
+                                fill="currentColor"
+                                style="width: 38px; height: 38px; color: #1a4f47"
+                            >
+                                <path
+                                    d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"
+                                />
+                            </svg>
+                            <div class="map-addr">Nhà Chú Rể</div>
+                            <div class="map-addr">Xóm Đồng Trúc, thôn 4, Tây Phương, Hà Nội</div>
+                            <a
+                                class="map-btn"
+                                href="https://maps.app.goo.gl/Bejr6kKbukEFXMRh7?g_st=ic"
+                                target="_blank"
+                                >Xem bản đồ</a
+                            >
+                        </div>
+                    </div>
+
+                    <div class="map-box reveal">
+                        <div class="map-pin-wrap">
+                            <svg
+                                viewBox="0 0 24 24"
+                                fill="currentColor"
+                                style="width: 38px; height: 38px; color: #1a4f47"
+                            >
+                                <path
+                                    d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"
+                                />
+                            </svg>
+                            <div class="map-addr">Nhà Cô Dâu</div>
+                            <div class="map-addr">Đội 1, Thôn Sơn Trung, Xã Quốc Oai, Hà Nội</div>
+                            <a
+                                class="map-btn"
+                                href="https://maps.app.goo.gl/iXdUX6EVrLANVMKU8?g_st=ic"
+                                target="_blank"
+                                >Xem bản đồ</a
+                            >
+                        </div>
                     </div>
                 </div>
             </section>
